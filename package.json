@@ -1,16 +1,16 @@
 {
-  "name": "testebackend",
+  "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "sequelize": "^6.37.0",
     "sqlite3": "^5.1.7"
   }
 }
